@@ -37,7 +37,7 @@ Search the HTML for `TODO` comments. At minimum, update:
 - **Officers** (`#officers`): real names, roles, short bios, photos/initials, and contact links.
 - **Events** (`#events`): real event titles, dates (set `event-month` / `event-day`), and locations.
 - **Join links** (`#join` and nav): the interest-form URL (Google Form) and the Discord/GroupMe invite.
-- **Contact email**: replace `rahulnaikajm@gmail.com` with a chapter address if you have one.
+- **Contact email**: currently `intaiacmsociety@gmail.com` (in `#join` and the footer).
 - **Chapter status / year** in the hero if needed.
 
 ### Adding an officer
