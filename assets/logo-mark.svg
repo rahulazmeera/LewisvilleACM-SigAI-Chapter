@@ -1,32 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ACM SIGAI Lewisville Chapter mark">
-  <title>ACM SIGAI Lewisville Chapter mark</title>
-  <defs>
-    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#123a68"/>
-      <stop offset="1" stop-color="#0b2647"/>
-    </linearGradient>
-  </defs>
-  <!-- badge -->
-  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="url(#navy)" stroke="#e0a83d" stroke-width="2"/>
-  <!-- neural traces from centre to each star point -->
-  <g stroke="#1f6feb" stroke-width="1.6" opacity="0.9">
-    <line x1="32" y1="32" x2="32" y2="7"/>
-    <line x1="32" y1="32" x2="55.78" y2="24.28"/>
-    <line x1="32" y1="32" x2="46.69" y2="52.23"/>
-    <line x1="32" y1="32" x2="17.31" y2="52.23"/>
-    <line x1="32" y1="32" x2="8.22" y2="24.28"/>
-  </g>
-  <!-- Lone Star -->
-  <path d="M32 7 L37.88 23.91 L55.78 24.28 L37.88 35.09 L46.69 52.23 L32 42 L17.31 52.23 L26.12 35.09 L8.22 24.28 L26.12 23.91 Z"
-        fill="#e0a83d" stroke="#f4d59a" stroke-width="1" stroke-linejoin="round"/>
-  <!-- nodes at the star points -->
-  <g fill="#ffffff" stroke="#d0561f" stroke-width="1.4">
-    <circle cx="32" cy="7" r="3"/>
-    <circle cx="55.78" cy="24.28" r="3"/>
-    <circle cx="46.69" cy="52.23" r="3"/>
-    <circle cx="17.31" cy="52.23" r="3"/>
-    <circle cx="8.22" cy="24.28" r="3"/>
-  </g>
-  <!-- central core node -->
-  <circle cx="32" cy="32" r="4.2" fill="#d0561f" stroke="#ffffff" stroke-width="1.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ACM Lewisville SIGAI mark">
+  <title>ACM Lewisville SIGAI mark</title>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#0e2a4e" stroke="#e0a83d" stroke-width="2"/>
+  <text x="32" y="30" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="700" font-size="17" fill="#ffffff" letter-spacing="0.5">ACM</text>
+  <text x="32" y="45" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-weight="700" font-size="11" fill="#e0a83d" letter-spacing="1.5">SIGAI</text>
 </svg>
