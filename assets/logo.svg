@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-label="ACM SIGAI Lewisville Chapter">
+  <title>ACM SIGAI Lewisville Chapter</title>
+  <defs>
+    <linearGradient id="navyL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123a68"/>
+      <stop offset="1" stop-color="#0b2647"/>
+    </linearGradient>
+  </defs>
+
+  <!-- mark -->
+  <g transform="translate(4,4)">
+    <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="url(#navyL)" stroke="#e0a83d" stroke-width="2"/>
+    <g stroke="#1f6feb" stroke-width="1.6" opacity="0.9">
+      <line x1="32" y1="32" x2="32" y2="7"/>
+      <line x1="32" y1="32" x2="55.78" y2="24.28"/>
+      <line x1="32" y1="32" x2="46.69" y2="52.23"/>
+      <line x1="32" y1="32" x2="17.31" y2="52.23"/>
+      <line x1="32" y1="32" x2="8.22" y2="24.28"/>
+    </g>
+    <path d="M32 7 L37.88 23.91 L55.78 24.28 L37.88 35.09 L46.69 52.23 L32 42 L17.31 52.23 L26.12 35.09 L8.22 24.28 L26.12 23.91 Z"
+          fill="#e0a83d" stroke="#f4d59a" stroke-width="1" stroke-linejoin="round"/>
+    <g fill="#ffffff" stroke="#d0561f" stroke-width="1.4">
+      <circle cx="32" cy="7" r="3"/>
+      <circle cx="55.78" cy="24.28" r="3"/>
+      <circle cx="46.69" cy="52.23" r="3"/>
+      <circle cx="17.31" cy="52.23" r="3"/>
+      <circle cx="8.22" cy="24.28" r="3"/>
+    </g>
+    <circle cx="32" cy="32" r="4.2" fill="#d0561f" stroke="#ffffff" stroke-width="1.6"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="'Space Grotesk', system-ui, sans-serif">
+    <text x="84" y="34" font-size="26" font-weight="700" fill="#0e2a4e" letter-spacing="0.5">ACM SIGAI</text>
+    <text x="85" y="54" font-size="12.5" font-weight="600" fill="#d0561f" letter-spacing="3.2">LEWISVILLE CHAPTER</text>
+  </g>
+</svg>

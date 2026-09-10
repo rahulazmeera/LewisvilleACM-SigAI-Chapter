@@ -11,6 +11,29 @@ and a little vanilla JavaScript.
 | `index.html` | All page content and structure |
 | `styles.css` | Styling and responsive layout |
 | `script.js` | Mobile nav toggle and footer year |
+| `assets/logo.svg` | Chapter logo — horizontal lockup (mark + wordmark) |
+| `assets/logo-mark.svg` | Chapter logo — mark only (used in the nav and as the favicon) |
+| `assets/acm-logo.svg` | **Placeholder** for the official ACM logo — see below |
+
+## Logo & branding
+
+The chapter mark is a Lone Star wired as a small neural network — Texas identity
+(navy, wheat-gold star) plus an AI motif (blue traces, orange nodes). Colors:
+
+- Navy `#0e2a4e` · Sunset orange `#d0561f` · Wheat gold `#e0a83d` · Tech blue `#1f6feb`
+
+### The ACM logo (do this before launch)
+
+`assets/acm-logo.svg` is only a dashed placeholder. As a recognized ACM chapter you
+may use the ACM name and logo per ACM's guidelines — **use the official artwork
+unmodified**, don't redraw it.
+
+1. Download the official logo: <https://www.acm.org/about-acm/acm-branding>
+   (chapter resources: <https://www.acm.org/chapters>).
+2. Replace `assets/acm-logo.svg` with the official file (keep the name, or update
+   the `<img src>` in the footer of `index.html`).
+
+The footer already carries the trademark acknowledgment for ACM / SIGAI / the ACM logo.
 
 ## Run it locally
 

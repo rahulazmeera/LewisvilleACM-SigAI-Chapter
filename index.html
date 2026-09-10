@@ -9,13 +9,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e2a4e'/%3E%3Cpath d='M16 4l2.6 7.3 7.7.1-6.2 4.7 2.3 7.4L16 18.9l-6.4 4.2 2.3-7.4-6.2-4.7 7.7-.1z' fill='%23e0a83d'/%3E%3C/svg%3E" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg" />
 </head>
 <body>
   <header class="site-header" id="top">
     <nav class="nav container">
       <a href="#top" class="brand">
-        <span class="brand-mark">AI</span>
+        <img class="brand-logo" src="assets/logo-mark.svg" alt="" width="34" height="34" />
         <span class="brand-text">ACM&nbsp;SIGAI <em>Lewisville</em></span>
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -223,9 +223,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div>
-        <span class="brand-mark">AI</span>
-        <p>ACM SIGAI &mdash; Lewisville Chapter</p>
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="ACM SIGAI Lewisville Chapter" width="240" height="54" />
         <p class="muted">An official chapter of the Association for Computing Machinery.</p>
       </div>
       <ul class="footer-links">
@@ -237,6 +236,17 @@
         <li><a href="mailto:intaiacmsociety@gmail.com">Email us</a></li>
         <li><a href="https://www.acm.org/" target="_blank" rel="noopener">ACM.org</a></li>
       </ul>
+    </div>
+    <div class="container footer-affiliation">
+      <a href="https://www.acm.org/" target="_blank" rel="noopener" aria-label="Association for Computing Machinery">
+        <img src="assets/acm-logo.svg" alt="ACM &mdash; Association for Computing Machinery" width="150" height="48" />
+      </a>
+      <p class="muted">
+        ACM, SIGAI, and the ACM logo are trademarks of the Association for Computing Machinery
+        and are used by this recognized chapter in accordance with ACM&rsquo;s branding and chapter
+        guidelines. This site is maintained by the chapter and does not represent official ACM
+        positions.
+      </p>
     </div>
     <p class="muted copyright">&copy; <span id="year"></span> ACM SIGAI Lewisville Chapter. Built by chapter volunteers.</p>
   </footer>
